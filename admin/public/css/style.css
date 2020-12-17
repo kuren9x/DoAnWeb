@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0px auto;
+}
+
+#footer,
+#header {
+    padding: 10px;
+    background: rgb(53, 214, 21);
+}
+
+#header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#wp_content {
+    min-height: 560px;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    background: wheat;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    display: block;
+}
+
+#info_admin {
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+#dropdow_menu {
+    display: none;
+    padding: 5px 0px;
+    list-style: none;
+    background-color: wheat;
+    position: absolute;
+    top: 70px;
+    right: 5px;
+    border: 1px solid black;
+}
+
+#dropdow_menu li a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#dropdow_menu li:hover {
+    background: rgb(232, 201, 201);
+}
+
+#footer {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.add_new {
+    color: whitesmoke;
+    background: rgb(53, 214, 21);
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.add_new:hover {
+    color: wheat;
+    text-decoration: none;
+}
+
+
+/* sidebar  */
+
+.sidebar {
+    float: left;
+    width: 20%;
+    padding-right: 5px;
+    border-right: 1px solid black;
+    min-height: 560px;
+}
+
+.content {
+    float: right;
+    width: 78%;
+}
+
+.span {
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.main_menu li {
+    position: relative;
+    list-style: none;
+    /* margin-bottom: 1px; */
+}
+
+.main_menu>li {
+    border-bottom: 1px solid black;
+}
+
+.main_menu a {
+    cursor: pointer;
+    /* text-decoration: none; */
+    font-size: 16px;
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.main_menu a:hover {
+    background-color: rgb(232, 229, 229);
+    transition: all 0.5s;
+}
+
+.sub_menu {
+    display: none;
+}
+
+
+/* -----form user ----  */
+
+.form_user {
+    width: 200px;
+    text-align: center;
+}
+
+input,
+select {
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    display: block;
+}
+
+select {
+    /* margin-top: 30px; */
+}
+
+input[type=submit] {
+    background: indigo;
+    color: whitesmoke;
+    margin-left: 35%;
+    width: 30%;
+}
+
+.error {
+    padding: 5px;
+    color: rgb(53, 214, 21);
+    font-weight: bold;
+}
+
+.success {
+    padding: 5px;
+    color: rgb(53, 214, 21);
+    font-weight: bold;
+}
+
+
+/* // */
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+thead {
+    border-bottom: 3px solid green;
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid green;
+}
+
+tr td {
+    padding: 10px;
+    border-right: 1px solid green;
+}
+
+
+/* dem thanh vien  */
+
+.count_user {
+    color: purple;
+    font-style: italic;
+}
+
+
+/* phan trang  */
+
+ul.pagging {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.pagging li {
+    padding-right: 2px;
+}
+
+ul.pagging li a {
+    color: forestgreen;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid purple;
+}
+
+ul.pagging li.active a {
+    color: red;
+    border: 2px solid red;
+}
+
+
+/* .clearfix {
+    clear: both;
+    display: block;
+} */
+
+.container_1 {
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.delete_order:hover {
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 5px;
+    cursor: pointer;
+}

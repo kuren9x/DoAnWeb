@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background: #00e7ff; */
+}
+
+#wp_login {
+    margin: 15px auto;
+    width: 280px;
+    padding: 15px 20px;
+    background: whitesmoke;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#wp_login #form_login input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+#form_login #username,
+#password,
+#email,
+#gender,
+#form_login #fullname,
+#new_password,
+#re_password {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background: wheat;
+}
+
+#gender {
+    width: 100%;
+}
+
+#btn_login,
+#btn_register {
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: #00e7ff;
+}
+
+#wp_login .remember_me label.remember_me {
+    position: absolute;
+    left: -20px;
+    top: -15px;
+}
+
+#wp_login .remember_me {
+    position: relative;
+    padding: 20px;
+}
+
+#wp_login .remember_me #remember_me {
+    height: 20px;
+    position: absolute;
+    width: 20px;
+    right: 60px;
+    top: -2px;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+}

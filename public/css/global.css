@@ -1,0 +1,36 @@
+.text_center{
+    text-align: center;
+}
+.text_left{
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+.text_justify{
+    text-align: justify;
+}
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.text_uppercase{
+    text-transform: uppercase;
+}
+.text_lowercase{
+    text-transform: lowercase;
+}
+.text_capitalize{
+    text-transform: capitalize;
+}
+.clear_both{
+    clear: both;
+}
+.justify_content_between{
+  justify-content: space-between;  
+}
+.d-flex{
+    display: flex;
+}

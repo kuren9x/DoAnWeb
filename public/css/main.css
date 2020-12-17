@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+@import url("https://theme.hstatic.net/1000333077/1000434853/14/RobotoCondensed-Bold.woff?v=139");
+.content {
+  height: 50px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 50px;
+}
+
+.content p {
+  line-height: 50px;
+}
+
+.row .col-12:first-child {
+  font-size: 26px;
+  font-weight: bolder 400;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+.spbtn button {
+  border-radius: 0;
+  background: black;
+}
+.spbtn a {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+}
+.fa {
+  display: inline-block;
+}
+
+#increase,
+#descrease {
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+.num_order {
+  width: 40px;
+  text-align: center;
+  height: 40px;
+}
+.detail_product {
+    left: 120px;
+    position: absolute;
+    bottom: 15px;
+}   

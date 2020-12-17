@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #00e7ff;
+}
+
+#wp_login {
+    margin: 150px auto;
+    width: 280px;
+    padding: 15px 20px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+#username,
+#password,
+#email,
+#gender,
+#fullname,
+#new_password,
+#re_password {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    background: wheat;
+}
+
+#gender {
+    width: 100%;
+}
+
+#btn_login,
+#btn_register {
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: #00e7ff;
+}
+
+label.remember_me {
+    position: absolute;
+    left: -20px;
+    top: -15px;
+}
+
+.remember_me {
+    position: relative;
+    padding: 20px;
+}
+
+input#remember_me {
+    height: 20px;
+    position: absolute;
+    width: 20px;
+    right: 60px;
+    top: -2px;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+}
